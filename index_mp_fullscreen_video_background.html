@@ -188,6 +188,7 @@
                         </li>
                         <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Our Partners</a>
                             <ul class="dropdown-menu" role="menu">
+                                <li><a href="https://www.veta.go.tz"><i class="fa fa-bolt"></i> Upendo Media</a></li>
                                 <li><a href="https://www.veta.go.tz"><i class="fa fa-bolt"></i> VETA</a></li>
                                 <li><a href="https://nit.ac.tz/"><i class="fa fa-link fa-sm"></i> NIT</a></li>
                                 <li><a href="https://www.polisi.go.tz/"><i class="fa fa-tasks"></i> Tanzania Police Force</a></li>
@@ -503,7 +504,7 @@
                                 <div class="team-descr font-alt">
                                     <div class="team-name">Eng. Samwel Kihongole</div>
                                     <div class="team-role">Managing Director</div>
-                                    <div class="team-role">Tel: ( +255) 623 817 557 / 757 316 110</div>
+                                    <div class="team-role">Tel: ( +255) 656 917 557 / 757 316 110</div>
                                 </div>
                             </div>
                         </div>
@@ -729,23 +730,23 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-6 col-sm-offset-3">
-                            <form action="https://chat.whatsapp.com/BwVSTNSYx5RBKmNE5mXoVB">
+                            <form id="contactForm" role="form" method="post" action="php/contact.php">
                                 <div class="form-group">
                                     <label class="sr-only" for="name">Name</label>
-                                    <input class="form-control" type="text" id="name" name="name" placeholder="Your Name*" />
+                                    <input class="form-control" type="text" id="name" name="name" placeholder="Your Name*" required="required" data-validation-required-message="Please enter your name." />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
                                     <label class="sr-only" for="email">Email</label>
-                                    <input class="form-control" type="email" id="email" name="email" placeholder="Your Email*" />
+                                    <input class="form-control" type="email" id="email" name="email" placeholder="Your Email*" required="required" data-validation-required-message="Please enter your email address." />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <textarea class="form-control" rows="7" id="message" name="message" placeholder="Your Message*" ></textarea>
+                                    <textarea class="form-control" rows="7" id="message" name="message" placeholder="Your Message*" required="required" data-validation-required-message="Please enter your message."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="text-center">
-                                    <button class="btn btn-block btn-round btn-d" ><a href="https://chat.whatsapp.com/BwVSTNSYx5RBKmNE5mXoVB">Submit</a></button>
+                                    <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Submit</button>
                                 </div>
                             </form>
                             <div class="ajax-response font-alt" id="contactFormResponse"></div>
@@ -760,8 +761,9 @@
                             <div class="widget">
                                 <h5 class="widget-title font-alt">About SNKD Investment</h5>
                                 <p>The offered services based on educational, entrepreneurship, security issues and information and Communication Technology (ICT).</p>
-                                <p>Phone: ( +255) 656 917 557</p>
-                                <p>Email:<a href="#"> snkdinvestment@gmail.com</a></p>
+                                <p>Phone: ( +255) 623 817 557</p>
+                                <p>Email:<a href="#"> snkdinvestment8@gmail.com</a></p>
+                                <p>NMB A/C: 213 100 45051</p>
                             </div>
                         </div>
                         <div class="col-sm-3">
@@ -821,8 +823,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
-                            <p class="copyright font-alt">&copy; 2022&nbsp;<a href="index.html">SNKD Investment</a>, All Rights Reserved.
-                                <font size=1>Developed: <i><a href="https://fmpiza.github.io/webfridolin"><font color="orange">fridolin</font></a></i></font>
+                            <p class="copyright font-alt">&copy; 2024&nbsp;<a href="index.html">SNKD Investment</a>, All Rights Reserved.
+                                <font size=1>Developed: <i><a href="https://fmpiza.github.io/webfridolin"><font color="darkblue">fridolin</font></a></i></font>
                             </p>
                         </div>
                         <div class="col-sm-6">
